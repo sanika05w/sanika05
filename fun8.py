@@ -1,4 +1,5 @@
 def my_fun(*args):
+    
     print("First argument:", args[0])
     print("Second argument:", args[1])
     print("All arguments:", args)
