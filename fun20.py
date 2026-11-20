@@ -4,6 +4,7 @@ def operation_factory(op):
     if op == "add":
         return add
     else:
+        
         return mul
 f = operation_factory("mul")
 print(f(3, 4)) 
