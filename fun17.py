@@ -6,5 +6,7 @@ def outer():
         print("Inner:", x)
     inner()
     print("Outer:", x)
+
+    
 outer()
 print("Global:", x)
