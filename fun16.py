@@ -6,4 +6,5 @@ def outer():
     x = "modified by nonlocal"
     inner()
     print("Outer:", x)
+
 outer()
